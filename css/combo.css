@@ -1,0 +1,482 @@
+html,
+body {
+  height: 100%;
+}
+
+#box {
+  width: 7.5rem;
+  height: 100%;
+  box-sizing: border-box;
+  /*null title*/
+  /*header*/
+  /*header End*/
+  /*main End*/
+  /*footer End*/
+}
+
+#box .null {
+  width: 100%;
+  height: 0.38rem;
+  background: #fdfffc;
+}
+
+#box header {
+  background: #fdfffc;
+  width: 100%;
+  height: 0.9rem;
+  padding: 0 0.22rem;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#box header .back {
+  width: 0.14rem;
+  height: 0.26rem;
+  text-indent: -999rem;
+  background: url(../img/l-back.png) no-repeat;
+  background-size: 0.14rem 0.26rem;
+}
+
+#box header h1 {
+  flex: 1;
+  font-size: 0.36rem;
+  height: 100%;
+  line-height: 0.9rem;
+  color: #5da525;
+}
+
+#box #main {
+  width: 100%;
+  height: 30.1rem;
+  background: #eee;
+  /*match End*/
+  /*details End*/
+  /*item End*/
+}
+
+#box #main #combo {
+  height: 6.3rem;
+  background: #fff;
+  border-top: 0.01rem solid #bec0bd;
+  border-bottom: 0.01rem solid #bec0bd;
+  box-sizing: border-box;
+}
+
+#box #main #combo img {
+  width: 7.5rem;
+  height: 3.4rem;
+}
+
+#box #main #combo section {
+  height: 2rem;
+  padding: 0.2rem 1.07rem 0.2rem 0.2rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #e6e6e6;
+}
+
+#box #main #combo section h3 {
+  font-size: 0.34rem;
+  font-weight: bold;
+  color: #323232;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  padding-left: 0.03rem;
+  box-sizing: border-box;
+}
+
+#box #main #combo section h4 {
+  height: 0.74rem;
+  line-height: 0.74rem;
+  font-size: 0.2rem;
+  color: #f88109;
+}
+
+#box #main #combo section h4 b {
+  font-size: 0.3rem;
+  font-weight: bold;
+}
+
+#box #main #combo section p {
+  height: 0.38rem;
+  line-height: 0.38rem;
+  font-size: 0.22rem;
+  color: #676767;
+  padding: 0 1.08rem 0 0.03rem;
+  box-sizing: border-box;
+}
+
+#box #main #combo .btn {
+  height: 0.86rem;
+  line-height: 0.86rem;
+  font-size: 0.22rem;
+  color: #666;
+  padding-left: 0.22rem;
+  box-sizing: border-box;
+}
+
+#box #main #match {
+  margin-top: 0.18rem;
+  height: 4.32rem;
+  background: #fff;
+  border-top: 0.01rem solid #e7e7e7;
+  border-bottom: 0.01rem solid #c6c6c6;
+  box-sizing: border-box;
+}
+
+#box #main #match h3 {
+  height: 0.62rem;
+  line-height: 0.62rem;
+  padding-left: 0.24rem;
+  box-sizing: border-box;
+  font-size: 0.22rem;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 0.01rem solid #e6e6e6;
+}
+
+#box #main #match h3 span {
+  font-weight: 500;
+  color: #666;
+}
+
+#box #main #match .list {
+  height: 3.68rem;
+  padding: 0.2rem 0.2rem 0.38rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#box #main #match .list li {
+  width: 1.71rem;
+  height: 1.47rem;
+  border: 0.01rem solid #70be2c;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#box #main #match .list li a img {
+  width: 1.67rem;
+  height: 1.43rem;
+}
+
+#box #main #match .list li a .opa {
+  width: 1.67rem;
+  height: 1.43rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-indent: -9999rem;
+  display: none;
+}
+
+#box #main #match .list li a .opa p {
+  width: 1.67rem;
+  height: 1.43rem;
+  background: #9eb368;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+}
+
+#box #main #match .list li a .opa .icon {
+  width: 0.49rem;
+  height: 0.37rem;
+  position: absolute;
+  background: url(../img/l-icon.png) no-repeat;
+  left: 0.7rem;
+  top: 0.52rem;
+  background-size: 0.47rem 0.37rem;
+}
+
+#box #main #match .list .active {
+  border: 0.01rem solid #e2e6e7;
+}
+
+#box #main #match .list .active .opa {
+  display: block;
+}
+
+#box #main #details {
+  margin-top: 0.18rem;
+  background: #fff;
+  border-top: 0.01rem solid #e7e7e7;
+  border-bottom: 0.01rem solid #c6c6c6;
+  box-sizing: border-box;
+}
+
+#box #main #details nav {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  border-bottom: 0.01rem solid #e5e5e5;
+  padding-left: 0 1.77rem 0 1.84rem;
+  font-size: 0.32rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#box #main #details nav a {
+  width: 1.42rem;
+}
+
+#box #main #details nav .show {
+  font-weight: bold;
+  color: #62a823;
+  border-bottom: 0.01rem solid #5fa427;
+  box-sizing: border-box;
+}
+
+#box #main #details .norms h3 {
+  height: 0.65rem;
+  font-size: 0.24rem;
+  color: #313131;
+  font-weight: bold;
+  padding: 0.28rem 0 0 0.3rem;
+  box-sizing: border-box;
+}
+
+#box #main #details .norms ul {
+  box-sizing: border-box;
+  border: 0.01rem solid #e5e5e5;
+  margin: 0 auto 0.2rem;
+  width: 7.1rem;
+  height: 2.42rem;
+  color: #373737;
+}
+
+#box #main #details .norms ul li {
+  width: 7.1rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  border-bottom: 0.01rem solid #ddd;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 0.22rem;
+}
+
+#box #main #details .norms ul li .cont {
+  width: 1.38rem;
+  border-right: 0.01rem solid #ddd;
+  text-align: center;
+}
+
+#box #main #details .norms ul li .infor {
+  flex: 1;
+  padding-left: 0.5rem;
+}
+
+#box #main #details .norms ul li:nth-child(2n-1) {
+  background: #eee;
+}
+
+#box #main #details .norms ul .last {
+  border-bottom: none;
+}
+
+#box #main #details .comment {
+  display: none;
+}
+
+#box #main #details .comment h3 {
+  height: 1.12rem;
+  font-size: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#box #main #details .comment h3 a {
+  width: 1.34rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  border: 0.01rem solid #5ea52f;
+  border-radius: 0.1rem;
+  corlor: #65a535;
+}
+
+#box #main #details .comment h3 .active {
+  color: #fffbff;
+  background: #60a42b;
+}
+
+#box #main #details .comment .list li {
+  height: 2.52rem;
+  border-top: 0.01rem solid #e5e5e5;
+  box-sizing: border-box;
+  padding: 0.27rem 0 0 0.2rem;
+  font-size: 0.22rem;
+  color: #333;
+}
+
+#box #main #details .comment .list li h4 {
+  height: 1.06rem;
+  line-height: 1.06rem;
+}
+
+#box #main #details .comment .list li h4 img {
+  width: 1.06rem;
+  height: 1.06rem;
+  margin-right: 0.14rem;
+}
+
+#box #main #details .comment .list li p {
+  height: 0.64rem;
+  line-height: 0.64rem;
+}
+
+#box #main #item {
+  width: 100;
+  height: 14.52rem;
+  box-sizing: border-box;
+  margin-top: 0.18rem;
+  background: #fff;
+  border-top: 0.01rem solid #e7e7e7;
+  border-bottom: 0.01rem solid #c6c6c6;
+  padding: 0 0.2rem;
+}
+
+#box #main #item .demo-bg {
+  width: 4.67rem;
+  height: 3.06rem;
+  display: block;
+  margin: 0.58rem auto 0;
+}
+
+#box #main #item h4 {
+  width: 5.1rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  text-align: center;
+  font-size: 0.26rem;
+  font-weight: bold;
+  color: #6a9d00;
+  margin: auto;
+}
+
+#box #main #item p {
+  width: 5.1rem;
+  text-align: center;
+  height: 0.22rem;
+  line-height: 0.22rem;
+  font-size: 0.16rem;
+  margin: auto;
+  color: #333;
+  font-weight: bold;
+}
+
+#box #main #item .demo {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#box #main #item .demo img {
+  width: 3.14rem;
+  height: 2.31rem;
+}
+
+#box #main #item .demo span {
+  width: 0.24rem;
+  height: 1.16rem;
+  line-height: 0.55rem;
+  text-align: center;
+  background: #f1b01e;
+  border-radius: 0.08rem;
+  font-size: 0.16rem;
+  font-weight: bold;
+}
+
+#box #main #item .demo2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#box #main #item .demo2 img {
+  width: 3.14rem;
+  height: 2.31rem;
+}
+
+#box #main #item .demo2 span {
+  width: 0.24rem;
+  height: 1.16rem;
+  line-height: 0.38rem;
+  text-align: center;
+  background: #f1b01e;
+  border-radius: 0.08rem;
+  font-size: 0.16rem;
+  font-weight: bold;
+}
+
+#box #main #item h3 {
+  margin-top: 0.54rem;
+  height: 0.5rem;
+  line-height: 0.16rem;
+  border: 0.01rem solid #f4f4f4;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  padding: 0.08rem 0.26rem;
+  font-size: 0.16rem;
+  color: #669900;
+  background: url(../img/l-dis.png) no-repeat 6.34rem 0.06rem;
+  background-size: 0.47rem 0.36rem;
+}
+
+#box #main #item h3 span {
+  font-size: 0.08rem;
+  height: 0.08rem;
+  line-height: 0.08rem;
+  margin-top: 0.06rem;
+}
+
+#box #main #item .way {
+  display: flex;
+  padding: 0.38rem 1.24rem 0.67rem 0.38rem;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+#box #main #item .way img {
+  width: 2.53rem;
+  height: 2.42rem;
+}
+
+#box #main #item .way p {
+  width: 2.15rem;
+  height: 1.25rem;
+  font-size: 0.16rem;
+}
+
+#box footer {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 1.55rem;
+  background: url(../img/l-car.png) no-repeat 0.22rem 0.08rem;
+  background-size: 0.67rem 0.68rem;
+  font-size: 0.28rem;
+}
+
+#box footer p span {
+  font-size: 0.18rem;
+  color: #f49000;
+}
+
+#box footer p span b {
+  font-size: 0.26rem;
+  font-weight: bold;
+}
+
+#box footer #btn {
+  width: 2.85rem;
+  height: 0.8rem;
+  background: #60a42b;
+  color: #fff5f6;
+  font-size: 0.34rem;
+  font-weight: bold;
+}

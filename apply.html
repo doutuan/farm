@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/apply.css">
+	<script>
+        ;(function(){
+            let html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })()
+    </script>
+</head>
+<body>
+	<div id="box">
+		<!--null  head-->
+		<div class="null"></div>
+		<!--header public-->
+		<header>
+			<a href="javascript:;" class="back">返回</a>
+			<h1>套餐申请</h1>
+		</header>
+		<section id="attention">
+			<img src="img/l-bg.png">
+			<article>
+				<h3>请选择您先吃菜后付款的套餐</h3>
+				<p>
+					您只需填好下面的表格，工作人员将会和您取得联系，我们会上门让您填写好相应的信息，即可先吃菜后付款，以后每次吃完菜，按月扣水电费一样扣款啦！
+					<br>
+					<b>本业务由深圳银联机构提供代扣支持！</b>
+				</p>
+			</article>
+		</section>	<!--attention End-->
+		<section class="A-class">
+			<h3>A类素菜套餐</h3>
+			<ul>
+				<li>
+					<input type="radio" name="combo" id="A-1">
+					 <label for="A-1">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+				<li>
+					<input type="radio" name="combo" id="A-2">
+					 <label for="A-2">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+				<li>
+					<input type="radio" name="combo" id="A-3">
+					 <label for="A-3">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+			</ul>
+		</section>
+		<section class="A-class">
+			<h3>B类素菜套餐</h3>
+			<ul>
+				<li>
+					<input type="radio" name="combo" id="B-1">
+					 <label for="B-1">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+				<li>
+					<input type="radio" name="combo" id="B-2">
+					 <label for="B-2">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+				<li>
+					<input type="radio" name="combo" id="B-3">
+					 <label for="B-3">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+			</ul>
+		</section>
+		<section class="A-class">
+			<h3>C类素菜套餐</h3>
+			<ul>
+				<li>
+					<input type="radio" name="combo" id="C-1">
+					 <label for="C-1">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+				<li>
+					<input type="radio" name="combo" id="C-2">
+					 <label for="C-2">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+				<li>
+					<input type="radio" name="combo" id="C-3">
+					 <label for="C-3">甜蜜蜜套餐，378/月（每周配送一次，每次配送9份蔬菜，不低于6斤）</label>
+				</li>
+			</ul>
+		</section>
+
+		<section id="application">
+			<form action="#" method="post">
+				<h3>提交申请</h3>
+				<section class="form-list">
+					<label for="name">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</label>
+					<input type="text" id="name">
+				</section>
+				<section class="form-list">
+					<label for="Tel">联系方式：</label>
+					<input type="text" id="Tel">
+				</section>
+				<section class="form-list">
+					<label for="address">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：</label>
+					<input type="text" id="address">
+				</section>
+				<input type="submit" value="提交" class="mit">
+				<p>
+					成功提交后，我们会在3个工作日内联系您！
+					<br>
+					<b>
+						客服电话：18503094768
+					</b>
+				</p>
+			</form>
+		</section>
+
+
+
+	</div>
+</body>
+</html>
