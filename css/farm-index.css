@@ -26,6 +26,8 @@ body {
   padding: 0 0.22rem;
   box-sizing: border-box;
   text-align: center;
+  display: -webkit-box;
+  -webkit-box-align: center;
   display: flex;
   align-items: center;
 }
@@ -39,6 +41,7 @@ body {
 }
 
 #box header h1 {
+  -webkit-box-flex: 1;
   flex: 1;
   font-size: 0.36rem;
   height: 100%;
@@ -125,6 +128,7 @@ body {
   box-sizing: border-box;
   font-size: 0.26rem;
   padding: 0.38rem 0.08rem 0.4rem 0.1rem;
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
 }
@@ -196,6 +200,8 @@ body {
   height: 3.9rem;
   padding: 0.22rem 0.2rem 0.12rem 0.2rem;
   box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
   display: flex;
   justify-content: space-between;
 }
