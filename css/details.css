@@ -149,11 +149,6 @@ body {
   height: 3.68rem;
   padding: 0.2rem 0.2rem 0.38rem;
   box-sizing: border-box;
-  display: -webkit-box;
-  -webkit-box-pack: justify;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 #box #main #match .list ul {
