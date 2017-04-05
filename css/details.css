@@ -156,7 +156,7 @@ body {
   flex-wrap: wrap;
 }
 
-#box #main #match .list li {
+#box #main #match .list ul li {
   width: 1.71rem;
   height: 1.47rem;
   border: 0.01rem solid #70be2c;
@@ -164,12 +164,16 @@ body {
   position: relative;
 }
 
-#box #main #match .list li a img {
+#box #main #match .list ul li a {
+  font-size: 0;
+}
+
+#box #main #match .list ul li a img {
   width: 1.67rem;
   height: 1.43rem;
 }
 
-#box #main #match .list li a .opa {
+#box #main #match .list ul li a .opa {
   width: 1.67rem;
   height: 1.43rem;
   position: absolute;
@@ -179,7 +183,7 @@ body {
   display: none;
 }
 
-#box #main #match .list li a .opa p {
+#box #main #match .list ul li a .opa p {
   width: 1.67rem;
   height: 1.43rem;
   background: #9eb368;
@@ -188,7 +192,7 @@ body {
   top: 0;
 }
 
-#box #main #match .list li a .opa .icon {
+#box #main #match .list ul li a .opa .icon {
   width: 0.49rem;
   height: 0.37rem;
   position: absolute;
@@ -198,11 +202,11 @@ body {
   background-size: 0.47rem 0.37rem;
 }
 
-#box #main #match .list .active {
+#box #main #match .list ul .active {
   border: 0.01rem solid #e2e6e7;
 }
 
-#box #main #match .list .active .opa {
+#box #main #match .list ul .active .opa {
   display: block;
 }
 
