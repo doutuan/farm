@@ -27,6 +27,8 @@ body {
   padding: 0 0.22rem;
   box-sizing: border-box;
   text-align: center;
+  display: -webkit-box;
+  webkit-box-align: center;
   display: flex;
   align-items: center;
 }
@@ -35,11 +37,13 @@ body {
   width: 0.14rem;
   height: 0.26rem;
   text-indent: -999rem;
+  font-size: 0;
   background: url(../img/l-back.png) no-repeat;
   background-size: 0.14rem 0.26rem;
 }
 
 #box header h1 {
+  -webkit-box-flex: 1;
   flex: 1;
   font-size: 0.36rem;
   height: 100%;
@@ -145,6 +149,8 @@ body {
   height: 3.68rem;
   padding: 0.2rem 0.2rem 0.38rem;
   box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -214,6 +220,8 @@ body {
   border-bottom: 0.01rem solid #e5e5e5;
   padding-left: 0 1.77rem 0 1.84rem;
   font-size: 0.32rem;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
   display: flex;
   justify-content: space-around;
 }
@@ -253,6 +261,7 @@ body {
   line-height: 0.6rem;
   border-bottom: 0.01rem solid #ddd;
   box-sizing: border-box;
+  display: -webkit-box;
   display: flex;
   font-size: 0.22rem;
 }
@@ -264,6 +273,7 @@ body {
 }
 
 #box #main #details .norms ul li .infor {
+  -webkit-box-flex: 1;
   flex: 1;
   padding-left: 0.5rem;
 }
@@ -283,6 +293,9 @@ body {
 #box #main #details .comment h3 {
   height: 1.12rem;
   font-size: 0.3rem;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -370,6 +383,9 @@ body {
 
 #box #main #item .demo {
   margin-top: 0.4rem;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -392,6 +408,10 @@ body {
 }
 
 #box #main #item .demo2 {
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  -webkit-box-direction: reverse;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -436,10 +456,12 @@ body {
 }
 
 #box #main #item .way {
+  display: -webkit-box;
+  -webkit-box-pack: justify;
   display: flex;
+  justify-content: space-around;
   padding: 0.38rem 1.24rem 0.67rem 0.38rem;
   box-sizing: border-box;
-  justify-content: space-around;
 }
 
 #box #main #item .way img {
