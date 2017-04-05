@@ -156,6 +156,13 @@ body {
   flex-wrap: wrap;
 }
 
+#box #main #match .list ul {
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  display: flex;
+  justify-content: space-around;
+}
+
 #box #main #match .list ul li {
   width: 1.71rem;
   height: 1.47rem;
