@@ -23,38 +23,45 @@ body {
   background: #fdfffc;
   width: 100%;
   height: 0.9rem;
-  padding: 0 0.22rem;
   box-sizing: border-box;
   text-align: center;
-  display: -webkit-box;
-  -webkit-box-align: center;
-  display: flex;
-  align-items: center;
+  position: relative;
 }
 
 #box header .back {
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
   width: 0.14rem;
   height: 0.26rem;
-  text-indent: -999rem;
-  background: url(../img/l-back.png) no-repeat;
-  background-size: 0.14rem 0.26rem;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+  background-position: -1.05rem -4.74rem;
+  position: absolute;
+  left: 0.22rem;
+  top: 0.3rem;
 }
 
-#box header h1 {
-  -webkit-box-flex: 1;
-  flex: 1;
+#box header span {
   font-size: 0.36rem;
-  height: 100%;
-  line-height: 0.9rem;
   color: #5da525;
+  position: absolute;
+  left: 2.97rem;
+  top: 0.2rem;
 }
 
 #box header .car-w {
   width: 0.5rem;
   height: 0.36rem;
-  background: url(../img/l-car1.png) no-repeat;
-  background-size: 0.5rem 0.36rem;
-  text-indent: -9999rem;
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+  background-position: 0 -3.35rem;
+  position: absolute;
+  right: 0.21rem;
+  top: 0.29rem;
 }
 
 #box #detail {
@@ -127,10 +134,7 @@ body {
   height: 2.1rem;
   box-sizing: border-box;
   font-size: 0.26rem;
-  padding: 0.38rem 0.08rem 0.4rem 0.1rem;
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 0.07rem 0.08rem 0.4rem 0.1rem;
 }
 
 #box #detail .menu #tab li {
@@ -141,7 +145,7 @@ body {
   border: 0.01rem solid #60a42b;
   box-sizing: border-box;
   border-radius: 0.1rem;
-  margin: 0 0.34rem 0.3rem;
+  margin: 0.31rem 0.68rem 0 0;
 }
 
 #box #detail .menu #tab li a {
@@ -151,11 +155,7 @@ body {
   color: #62a22a;
 }
 
-#box #detail .menu #tab .no-ML {
-  margin-left: 0;
-}
-
-#box #detail .menu #tab .no-MR {
+#box #detail .menu #tab .last {
   margin-right: 0;
 }
 
@@ -200,10 +200,6 @@ body {
   height: 3.9rem;
   padding: 0.22rem 0.2rem 0.12rem 0.2rem;
   box-sizing: border-box;
-  display: -webkit-box;
-  -webkit-box-pack: justify;
-  display: flex;
-  justify-content: space-between;
 }
 
 #box #detail #list section ul li {
@@ -271,4 +267,8 @@ body {
   color: #fff;
   font-size: 0.22rem;
   margin-top: 0.08rem;
+}
+
+#box #detail #list section ul .marginL {
+  margin-right: 0.1rem;
 }

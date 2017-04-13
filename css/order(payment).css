@@ -1,0 +1,186 @@
+html,
+body {
+  height: 100%;
+}
+
+#box {
+  width: 7.5rem;
+  height: 100%;
+  box-sizing: border-box;
+  background: #fdfffc;
+  /*null title*/
+  /*header*/
+  /*header End*/
+}
+
+#box .null {
+  width: 100%;
+  height: 0.38rem;
+  background: #fdfffc;
+}
+
+#box header {
+  background: #fdfffc;
+  width: 100%;
+  height: 0.9rem;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 0.02rem solid #bebebc;
+}
+
+#box header .back {
+  width: 0.16rem;
+  height: 0.32rem;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+  background-position: -1.03rem -4.18rem;
+  color: rgba(0, 0, 0, 0);
+  font-size: 0;
+  position: absolute;
+  left: 0.22rem;
+  top: 0.29rem;
+}
+
+#box header span {
+  font-size: 0.36rem;
+  color: #5da525;
+  position: absolute;
+  left: 2.97rem;
+  top: 0.2rem;
+}
+
+#box nav {
+  height: 0.78rem;
+  border-top: 0.01rem solid #e9e9e7;
+  border-bottom: 0.01rem solid #c6c6c6;
+  padding: 0 0.2rem;
+}
+
+#box nav ul li {
+  width: 0.87rem;
+  height: 0.76rem;
+  line-height: 0.76rem;
+  border-bottom: 0.02rem solid #fdfffc;
+  font-size: 0.28rem;
+  margin: 0 0.45rem;
+}
+
+#box nav ul li a {
+  color: #636363;
+}
+
+#box nav ul .active {
+  border-bottom: 0.02rem solid #5fa231;
+}
+
+#box nav ul .active a {
+  color: #5fa231;
+}
+
+#box #main {
+  background: #eee;
+  padding-top: 0.18rem;
+  height: 11.08rem;
+  box-sizing: border-box;
+}
+
+#box #main .list li {
+  height: 2.4rem;
+  border-top: 0.01rem solid #e7e7e7;
+  border-bottom: 0.01rem solid #c7c7c7;
+  background: #fdfffc;
+  padding: 0 0.2rem;
+  margin-bottom: 0.18rem;
+  position: relative;
+}
+
+#box #main .list li a {
+  display: block;
+  height: 2.4rem;
+}
+
+#box #main .list li a img {
+  width: 2.2rem;
+  height: 1.66rem;
+  border: 0.01rem solid #e4e6e3;
+  padding: 0.05rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.26rem;
+}
+
+#box #main .list li a h3 {
+  font-size: 0.28rem;
+  color: #323232;
+  position: absolute;
+  left: 2.68rem;
+  top: 0.3rem;
+}
+
+#box #main .list li a .count {
+  font-size: 0.18rem;
+  color: #676765;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.45rem;
+}
+
+#box #main .list li a b {
+  font-size: 0.18rem;
+  color: #5ca62d;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 1.08rem;
+}
+
+#box #main .list li a b span {
+  font-size: 0.22rem;
+}
+
+#box #main .list li a .details {
+  font-size: 0.22rem;
+  top: 0.7rem;
+  color: #666865;
+  position: absolute;
+  left: 2.68rem;
+}
+
+#box #main .list li a .farm {
+  font-size: 0.2rem;
+  color: #666865;
+  position: absolute;
+  left: 2.68rem;
+  bottom: 1.08rem;
+}
+
+#box #main .list li .status {
+  height: 0.5rem;
+  width: 3.06rem;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.36rem;
+}
+
+#box #main .list li .status input {
+  width: 1.3rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  border-radius: 0.05rem;
+  color: #fffff1;
+  font-size: 0.22rem;
+  margin-right: 0.36rem;
+}
+
+#box #main .list li .status .pay {
+  background: #fa932c;
+}
+
+#box #main .list li .status .cancel {
+  background: #666;
+}
+
+#box #main .list li .status .last {
+  margin-right: 0;
+}

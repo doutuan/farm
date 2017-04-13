@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/place-order.css">
+	<script>
+        ;(function(){
+            var html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })();
+        document.addEventListener('DOMContentLoaded',function(){
+			var oBtn=document.querySelector('#btn');
+			var oDot=document.querySelector('#btn .dot')
+			var bOk=false;
+
+			oBtn.addEventListener('touchstart',function(){
+				if(bOk){
+					oBtn.style.background='#e5e5e5';
+					oDot.style.background='#60a42b';
+					oDot.style.left=15+'px';
+					bOk=!bOk;
+				}else{
+					oBtn.style.background='#81ef2c';
+					oDot.style.background='#e5e5e5';
+					oDot.style.left=80+'px';
+					bOk=!bOk;
+				}
+			},false);
+		},false);
+    </script>
+</head>
+<body>
+	<div id="box">
+		<!--null  head-->
+		<div class="null"></div>
+		<!--header public-->
+		<header>
+			<a href="details.html" class="back">返回</a>
+			<span>确认订单</span>
+		</header>
+		<section id="main">
+			<ul>
+				<li class="site">
+					<a href="javascript:;">
+						<span class="location">定位</span>
+						<span class="address">添加地址</span>
+						<span class=" arrow">箭头</span>
+					</a>
+				</li>
+				<li class="order-cont">
+					<img src="img/detailsMeal1.png">
+					<hgroup>
+						<h3>时令蔬菜套餐6斤装</h3>
+						<h6>白菜.胡萝卜.茄子.玉米.西红柿.芹菜</h6>
+					</hgroup>
+					<p class="clearfix">
+						<b class="fl">￥<span>200</span>.00</b>
+						<i class="fr">×1</i>
+					</p>
+				</li>
+				<li class="remark">
+					<section class="count clearfix">
+						<span class="fl">购买数量</span>
+						<section class="fr">
+							<input type="button" value="-" class="fl ">
+							<span class="fl">1</span>
+							<input type="button" value="+" class="fl last">
+						</section>
+					</section>
+					<section class="delivery clearfix">
+						<span class="fl">配送方式</span>
+						<span class="fr mode">快递发货</span>
+					</section>
+					<textarea placeholder="  买家留言:" class="msg"></textarea>
+				</li>
+				<li class="coupon">
+					<a href="javascript:;">
+						<span class="cou">优惠劵</span>
+						<span class="pon">目前没有优惠劵</span>
+						<span class=" arrow">箭头</span>
+					</a>
+				</li>
+				<li class="note">
+					<span >短信是否通知收件人</span>
+					<span id="btn"><span class="dot"></span></span>
+				</li>
+				<li class="cost">
+					<section class="clearfix">
+						<span class="fl">套餐金额</span>
+						<span class="fr mode">￥200.00</span>
+					</section>
+					<section class="clearfix">
+						<span class="fl">运费</span>
+						<span class="fr mode">￥00.00</span>
+					</section>
+				</li>
+			</ul>
+		</section>
+
+		<footer class="clearfix">
+			<p class="fl">
+				合计：
+				<b>
+					￥<span>200.00</span>
+				</b>
+			</p>
+			<input type="button" value="提交订单" class="fr" id="btn">
+		</footer>
+	</div>
+</body>
+</html>

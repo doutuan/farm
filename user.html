@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/user.css">
+	<style>
+
+	</style>
+	<script>
+        ;(function(){
+            var html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })()
+    </script>
+</head>
+<body>
+	<div id="box">
+		<div class="null"></div>
+		<header id="top">
+			<h3>我的</h3>
+		</header>
+		<section id="main">
+			<section class="user">
+				<h3>
+					<a href="javascript:;">
+						<img src="img/head-img.png">
+						<p>wangfang</p>
+					</a>
+				</h3>
+				<input type="button" value="充值">
+			</section>
+			<section class="clearfix wallet">
+				<p class="fl purse"><a href="javascript:;"><span>钱包</span><b>100元</b></a></p>
+				<i class="line"></i>
+				<p class="fl coupon"><a href="javascript:;"><span>优惠劵</span><b>2张</b></a></p>
+			</section>
+			<ul class="list">
+				<li>
+					<a href="order(service).html">
+						<span class="icon icon1">图标</span>
+						<b>我的订单</b>
+						<span class="arrow">箭头</span>
+					</a>
+				</li>
+				<li>
+					<a href="my-combo(payment).html">
+						<span class="icon icon2">图标</span>
+						<b>我的套餐</b>
+						<span class="arrow">箭头</span>
+					</a>
+				</li>
+				<li>
+					<a href="shopping-cart.html">
+						<span class="icon icon3">图标</span>
+						<b>购物车</b>
+						<span class="arrow">箭头</span>
+					</a>
+				</li>
+				<li>
+					<a href="address.html">
+						<span class="icon icon4">图标</span>
+						<b>地址管理</b>
+						<span class="arrow">箭头</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<footer>
+			<ul class="clearfix">
+				<li class="fl">
+					<a href="index.html">
+						<span class="footFarm"></span>
+						农场
+					</a>
+				</li>
+				<li class="fl">
+					<a href="classification.html">
+						<span class="footClass"></span>
+						分类
+					</a>
+				</li>
+				<li class="fl last">
+					<a href="javascript:;">
+						<span class="footUser icon-fix"></span>
+						我的
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>

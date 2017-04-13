@@ -1,0 +1,191 @@
+html,
+body {
+  height: 100%;
+}
+
+#box {
+  width: 7.5rem;
+  height: 100%;
+  box-sizing: border-box;
+  /*null title*/
+}
+
+#box .null {
+  width: 100%;
+  height: 0.38rem;
+  background: #fdfffc;
+}
+
+#box #top {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  box-sizing: border-box;
+  /* Firefox */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 0.2rem;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+}
+
+#box #top a {
+  width: 2rem;
+  height: 100%;
+  line-height: 0.9rem;
+  font-size: 0.24rem;
+  color: #5ea32c;
+}
+
+#box #top a .city {
+  padding: 0 0.02rem;
+}
+
+#box #top a .area {
+  border-left: 0.01rem solid #5ea32c;
+  padding-left: 0.09rem;
+}
+
+#box #top h3 {
+  font-size: 0.38rem;
+  font-size: bold;
+  color: #61a52a;
+  position: absolute;
+  left: 3.38rem;
+}
+
+#box #banner {
+  height: 3.49rem;
+  border-top: 0.01rem solid #bfbfbf;
+}
+
+#box #banner ul li img {
+  height: 3.49rem;
+}
+
+#box #farm-list {
+  box-sizing: border-box;
+  padding-bottom: 0.07rem;
+  background: #eee;
+  border-top: 0.01rem solid #c5c5c5;
+}
+
+#box #farm-list ul li {
+  box-sizing: border-box;
+  height: 2.32rem;
+  width: 7.12rem;
+  background: #fefaf9;
+  padding: 0.14rem 0.13rem 0.13rem;
+  border: 0.01rem solid #c6c6c6;
+  border-radius: 0.1rem;
+  margin: 0.18rem auto 0;
+  position: relative;
+}
+
+#box #farm-list ul li img {
+  width: 2.6rem;
+  height: 1.9rem;
+  margin-right: 0.36rem;
+}
+
+#box #farm-list ul li .details {
+  position: absolute;
+  left: 3.09rem;
+  top: 0.14rem;
+}
+
+#box #farm-list ul li .details h3 {
+  height: 0.36rem;
+  line-height: 0.36rem;
+  font-size: 0.28rem;
+  font-weight: bole;
+  color: #333;
+}
+
+#box #farm-list ul li .details .blurb {
+  width: 3.52rem;
+  height: 0.6rem;
+  line-height: 0.3rem;
+  font-size: 0.2rem;
+  margin: 0.07rem 0 0.1rem;
+  color: #353432;
+}
+
+#box #farm-list ul li .details .address {
+  font-size: 0.18rem;
+  height: 0.28rem;
+  line-height: 0.28rem;
+  color: #666;
+}
+
+#box #farm-list ul li .btn {
+  width: 1.3rem;
+  height: 0.5rem;
+  text-align: center;
+  line-height: 0.5rem;
+  background: #60a42b;
+  border-radius: 0.05rem;
+  color: #fefafb;
+  font-size: 0.22rem;
+  font-weight: bold;
+  position: absolute;
+  right: 0.13rem;
+  bottom: 0.13rem;
+}
+
+#box footer {
+  height: 0.99rem;
+  font-size: 0.2rem;
+}
+
+#box footer ul {
+  box-sizing: border-box;
+  padding: 0.11rem 0.7rem 0.14rem 0.82rem;
+}
+
+#box footer ul li {
+  width: 0.58rem;
+  height: 0.74rem;
+  text-align: center;
+  margin-right: 2.04rem;
+}
+
+#box footer ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #666;
+}
+
+#box footer ul li a span {
+  display: block;
+  overflow: hidden;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+}
+
+#box footer ul li a .footFarm {
+  width: 0.49rem;
+  height: 0.45rem;
+  background-position: -0.71rem -0.56rem;
+  margin: 0 auto 0.06rem;
+}
+
+#box footer ul li a .footClass {
+  width: 0.45rem;
+  height: 0.45rem;
+  background-position: 0 0;
+  margin: 0 auto 0.05rem;
+}
+
+#box footer ul li a .footUser {
+  width: 0.4rem;
+  height: 0.46rem;
+  background-position: 0 -1.11rem;
+  margin: 0 auto 0.04rem;
+}
+
+#box footer ul .last {
+  margin-right: 0;
+}

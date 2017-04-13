@@ -1,0 +1,378 @@
+html,
+body {
+  height: 100%;
+}
+
+#box {
+  width: 7.5rem;
+  height: 100%;
+  box-sizing: border-box;
+  /*null title*/
+}
+
+#box .null {
+  width: 100%;
+  height: 0.38rem;
+  background: #fdfffc;
+}
+
+#box #top {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  box-sizing: border-box;
+  /* Firefox */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 0.2rem;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+}
+
+#box #top a {
+  width: 2rem;
+  height: 100%;
+  line-height: 0.9rem;
+  font-size: 0.24rem;
+  color: #5ea32c;
+}
+
+#box #top a .city {
+  padding: 0 0.02rem;
+}
+
+#box #top a .area {
+  border-left: 0.01rem solid #5ea32c;
+  padding-left: 0.09rem;
+}
+
+#box #top h3 {
+  font-size: 0.38rem;
+  font-size: bold;
+  color: #61a52a;
+  position: absolute;
+  left: 3.38rem;
+}
+
+#box #top .car-w {
+  width: 0.5rem;
+  height: 0.36rem;
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
+  text-indent: -9999rem;
+  background: url(../img/l-car1.png) no-repeat;
+  background-size: 0.5rem 0.36rem;
+  position: absolute;
+  right: 0.2rem;
+  top: 0.35rem;
+}
+
+#box #main {
+  background: #eee;
+  border-top: 0.01rem solid #bfbfbf;
+  padding-bottom: 0.19rem;
+}
+
+#box #main .common {
+  margin: 0.19rem 0;
+}
+
+#box #main .common .common-list {
+  width: 7.1rem;
+  height: 3.3rem;
+  margin: 0 auto 0.2rem;
+  box-sizing: border-box;
+  padding: 0.06rem 0;
+}
+
+#box #main .common .common-list li {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin-right: 0.36rem;
+  opisition: relative;
+}
+
+#box #main .common .common-list li p {
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
+}
+
+#box #main .common .common-list li .opa {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #82b66c;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  position: absolute;
+}
+
+#box #main .common .common-list li img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#box #main .common .common-list .up {
+  margin-bottom: 0.19rem;
+}
+
+#box #main .common .common-list .last {
+  margin-right: 0;
+}
+
+#box #main .common .selected-list {
+  display: none;
+  background: #fdfffc;
+}
+
+#box #main .common .selected-list li {
+  height: 2.4rem;
+  border-top: 0.01rem solid #e7e7e7;
+  position: relative;
+  border-bottom: 0.01rem solid #c6c8c5;
+}
+
+#box #main .common .selected-list li img {
+  width: 2.2rem;
+  height: 1.66rem;
+  padding: 0.05rem;
+  border: 0.01rem solid #e6e8e5;
+  position: absolute;
+  left: 0.21rem;
+  top: 0.27rem;
+}
+
+#box #main .common .selected-list li h3 {
+  height: 0.38rem;
+  line-height: 0.38rem;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  left: 2.7rem;
+  top: 0.27rem;
+}
+
+#box #main .common .selected-list li p {
+  font-size: 0.22rem;
+  width: 4.6rem;
+  color: #666;
+  position: absolute;
+  left: 2.7rem;
+  top: 0.7rem;
+}
+
+#box #main .common .selected-list li h6 {
+  color: #5ea626;
+  position: absolute;
+  left: 2.7rem;
+  bottom: 0.98rem;
+}
+
+#box #main .common .selected-list li h6 span {
+  font-size: 0.16rem;
+}
+
+#box #main .common .selected-list li h6 b {
+  font-size: 0.24rem;
+}
+
+#box #main .proper {
+  height: 6.65rem;
+  background: #fdfffc;
+}
+
+#box #main .proper h3 {
+  height: 0.79rem;
+  line-height: 0.79rem;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 0.01rem solid #e5e5e5;
+  position: relative;
+}
+
+#box #main .proper h3 .pro {
+  position: absolute;
+  left: 0.25rem;
+}
+
+#box #main .proper h3 .btn {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.18rem;
+  width: 1.72rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background: #60a42b;
+  color: #fdfffa;
+  box-sizing: border-box;
+  padding: 0 0.08rem 0 0.21rem;
+  font-size: 0.24rem;
+  font-weight: normal;
+  border-radius: 0.02rem;
+}
+
+#box #main .proper h3 .btn .more {
+  width: 0.22rem;
+  height: 0.11rem;
+  display: block;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+  background-position: -0.99rem -3.94rem;
+  position: absolute;
+  right: 0.08rem;
+  top: 0.21rem;
+}
+
+#box #main .proper .proper-list {
+  box-sizing: border-box;
+  padding: 0 0.2rem 0.12rem;
+  margin-bottom: 0.12rem;
+  position: relative;
+}
+
+#box #main .proper .proper-list li {
+  width: 1.7rem;
+  height: 1.48rem;
+  box-sizing: border-box;
+  border: 0.01rem solid #d2d2d2;
+  margin: 0.12rem 0.1rem 0 0;
+}
+
+#box #main .proper .proper-list li img {
+  width: 1.68rem;
+  height: 1.46rem;
+}
+
+#box #main .proper .proper-list li p {
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
+}
+
+#box #main .proper .proper-list li .opa {
+  width: 1.68rem;
+  height: 1.46rem;
+  background: #82b66c;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  position: absolute;
+}
+
+#box #main .proper .proper-list .last {
+  margin-right: 0;
+}
+
+#box #main .proper .selected-list {
+  background: #fdfffc;
+}
+
+#box #main .proper .selected-list li {
+  height: 2.4rem;
+  border-top: 0.01rem solid #e7e7e7;
+  position: relative;
+  border-bottom: 0.01rem solid #c6c8c5;
+}
+
+#box #main .proper .selected-list li img {
+  width: 2.2rem;
+  height: 1.66rem;
+  padding: 0.05rem;
+  border: 0.01rem solid #e6e8e5;
+  position: absolute;
+  left: 0.21rem;
+  top: 0.27rem;
+}
+
+#box #main .proper .selected-list li h3 {
+  height: 0.38rem;
+  line-height: 0.38rem;
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  left: 2.7rem;
+  top: 0.27rem;
+}
+
+#box #main .proper .selected-list li p {
+  font-size: 0.22rem;
+  width: 4.6rem;
+  color: #666;
+  position: absolute;
+  left: 2.7rem;
+  top: 0.7rem;
+}
+
+#box #main .proper .selected-list li h6 {
+  color: #5ea626;
+  position: absolute;
+  left: 2.7rem;
+  bottom: 0.98rem;
+}
+
+#box #main .proper .selected-list li h6 span {
+  font-size: 0.16rem;
+}
+
+#box #main .proper .selected-list li h6 b {
+  font-size: 0.24rem;
+}
+
+#box footer {
+  height: 0.99rem;
+  font-size: 0.2rem;
+}
+
+#box footer ul {
+  box-sizing: border-box;
+  padding: 0.11rem 0.7rem 0.14rem 0.82rem;
+}
+
+#box footer ul li {
+  width: 0.58rem;
+  height: 0.74rem;
+  text-align: center;
+  margin-right: 2.04rem;
+}
+
+#box footer ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #666;
+}
+
+#box footer ul li a span {
+  display: block;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+}
+
+#box footer ul li a .footFarm {
+  width: 0.49rem;
+  height: 0.45rem;
+  background-position: 0 -0.56rem;
+  margin: 0 auto 0.06rem;
+}
+
+#box footer ul li a .footClass {
+  width: 0.45rem;
+  height: 0.45rem;
+  background-position: -0.76rem 0;
+  margin: 0 auto 0.05rem;
+}
+
+#box footer ul li a .footUser {
+  width: 0.4rem;
+  height: 0.46rem;
+  background-position: 0 -1.11rem;
+  margin: 0 auto 0.04rem;
+}
+
+#box footer ul .last {
+  margin-right: 0;
+}

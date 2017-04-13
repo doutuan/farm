@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/address.css">
+	<style>
+
+	</style>
+	<script>
+        ;(function(){
+            var html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })()
+    </script>
+</head>
+<body>
+	<div id="box">
+		<!--null  head-->
+		<div class="null"></div>
+		<!--header public-->
+		<header>
+			<a href="user.html" class="back">返回</a>
+			<span>地址管理</span>
+		</header>
+		<section id="main">
+			<ul class="list">
+				<li>
+					<section class="information">
+						<p class="clearfix">
+							<span class="fl">李某某</span>
+							<span class="fr">17316252344</span>
+						</p>
+						<address>北京市丰台区花香科技园诺德中心1期3号楼708室</address>
+					</section>
+					<section class="handle">
+						<input type="radio">
+						<span>默认地址</span>
+						<a href="javascript:;" class="edit"><span>编辑</span><b>编辑</b></a>
+						<a href="javascript:;" class="del"><span>删除</span><b>删除</b></a>
+					</section>
+				</li>
+			</ul>
+			<button class="add">
+				<a href="address-add.html">新增地址</a>
+			</button>
+		</section>
+	</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/order(payment).css">
+	<style>
+
+	</style>
+	<script>
+        ;(function(){
+            var html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })()
+    </script>
+</head>
+<body>
+	<div id="box">
+		<!--null  head-->
+		<div class="null"></div>
+		<!--header public-->
+		<header>
+			<a href="javascript:;" class="back">返回</a>
+			<span>我的订单</span>
+		</header>
+		<nav>
+			<ul class="clearfix">
+				<li class="fl active">
+					<a href="javascript:;">待付款</a>
+				</li>
+				<li class="fl">
+					<a href="order(service).html">待服务</a>
+				</li>
+				<li class="fl">
+					<a href="order(finish).html">已完成</a>
+				</li>
+				<li class="fl">
+					<a href="order(cancel).html">已取消</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="main">
+			<ul class="list">
+				<li>
+					<a href="javascript:;">
+						<img src="img/pepper.png" alt="">
+						<h3 class=" trade-name">彩椒</h3>
+						<span class="count">×1</span>
+						<b>￥<span>30</span>.00</b>
+						<span class="details">新鲜鲜美有机蔬菜</span>
+						<span class="farm">农场一</span>
+					</a>
+					<section class="status clearfix">
+						<input type="button" value="取消订单" class="cancel fl">
+						<input type="button" value="付款" class="pay fl last">
+					</section>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/cabbage.png" alt="">
+						<h3 class=" trade-name">白菜</h3>
+						<span class="count">×1</span>
+						<b>￥<span>30</span>.00</b>
+						<span class="details">新鲜鲜美有机蔬菜</span>
+						<span class="farm">农场一</span>
+					</a>
+					<section class="status clearfix">
+						<input type="button" value="取消订单" class="cancel fl">
+						<input type="button" value="付款" class="pay fl last">
+					</section>
+				</li>
+			</ul>
+		</section>
+	</div>
+</body>
+</html>

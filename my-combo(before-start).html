@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/my-combo(before-start).css">
+	<style>
+
+	</style>
+	<script>
+        ;(function(){
+            var html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })()
+    </script>
+</head>
+<body>
+	<div id="box">
+		<!--null  head-->
+		<div class="null"></div>
+		<!--header public-->
+		<header>
+			<a href="user.html" class="back">返回</a>
+			<span>我的套餐</span>
+		</header>
+		<nav>
+			<ul class="clearfix">
+				<li class="fl">
+					<a href="my-combo(payment).html">待付款</a>
+				</li>
+				<li class="fl active">
+					<a href="javascript:;">待开始</a>
+				</li>
+				<li class="fl">
+					<a href="my-combo(Ing).html">进行中</a>
+				</li>
+				<li class="fl">
+					<a href="my-combo(finish).html">已完成</a>
+				</li>
+				<li class="fl last">
+					<a href="my-combo(cancel).html">已取消</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="main">
+			<ul class="list">
+				<li>
+					<a href="javascript:;">
+						<img src="img/greatPackages.png" alt="">
+						<h3 class=" trade-name">蔬菜豪华套餐</h3>
+						<span class="count">×1</span>
+						<b>￥<span>30</span>.00</b>
+						<span class="details">西红柿 西兰花 白菜 土豆</span>
+						<span class="farm">农场一</span>
+					</a>
+					<section class="status clearfix">
+						<input type="button" value="已付款" class="fr last">
+						<input type="button" value="卖家未发货" class="fr">
+					</section>
+				</li>
+			</ul>
+		</section>
+	</div>
+
+</body>
+</html>

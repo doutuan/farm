@@ -1,0 +1,286 @@
+html,
+body {
+  height: 100%;
+}
+
+#box {
+  width: 7.5rem;
+  height: 100%;
+  box-sizing: border-box;
+  /*null title*/
+}
+
+#box .null {
+  width: 100%;
+  height: 0.38rem;
+  background: #fdfffc;
+}
+
+#box #top {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  box-sizing: border-box;
+  /* Firefox */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0 0.2rem;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+}
+
+#box #top a {
+  width: 2rem;
+  height: 100%;
+  line-height: 0.9rem;
+  font-size: 0.24rem;
+  color: #5ea32c;
+}
+
+#box #top a .city {
+  padding: 0 0.02rem;
+}
+
+#box #top a .area {
+  border-left: 0.01rem solid #5ea32c;
+  padding-left: 0.09rem;
+}
+
+#box #top h3 {
+  font-size: 0.38rem;
+  font-size: bold;
+  color: #61a52a;
+  position: absolute;
+  left: 3.38rem;
+}
+
+#box #main {
+  background: #eee;
+}
+
+#box #main .user {
+  height: 3.4rem;
+  background: url(../img/user-bg.png) no-repeat;
+  background-size: 7.5rem 3.4rem;
+  border-top: 0.01rem solid #bec0bd;
+  position: relative;
+}
+
+#box #main .user h3 {
+  width: 2.02rem;
+  height: 2.35rem;
+  margin: 0.36rem auto 0.08rem;
+}
+
+#box #main .user h3 a img {
+  width: 1.78rem;
+  height: 1.74rem;
+  border: 0.12rem solid #e9e4de;
+  border-radius: 50%;
+}
+
+#box #main .user h3 a p {
+  font-size: 0.2rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  text-align: center;
+  color: #fbffff;
+}
+
+#box #main .user input {
+  width: 1.1rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  text-align: center;
+  background: #5fa328;
+  border-radius: 0.03rem;
+  position: absolute;
+  left: 3.18rem;
+  bottom: 0.27rem;
+  color: #fff7ff;
+  font-size: 0.18rem;
+}
+
+#box #main .wallet {
+  height: 0.92rem;
+  background: #fdfffc;
+  position: relative;
+}
+
+#box #main .wallet p a {
+  font-size: 0.22rem;
+  color: #696b68;
+}
+
+#box #main .wallet p a span {
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
+}
+
+#box #main .wallet .purse span {
+  width: 0.36rem;
+  height: 0.4rem;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+  background-position: 0 -1.67rem;
+  position: absolute;
+  left: 1.42rem;
+  top: 0.22rem;
+}
+
+#box #main .wallet .purse b {
+  position: absolute;
+  left: 1.87rem;
+  top: 0.3rem;
+}
+
+#box #main .wallet .coupon span {
+  width: 0.46rem;
+  height: 0.32rem;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+  background-position: -0.74rem -1.67rem;
+  position: absolute;
+  right: 2.23rem;
+  top: 0.3rem;
+}
+
+#box #main .wallet .coupon b {
+  position: absolute;
+  right: 1.72rem;
+  top: 0.29rem;
+}
+
+#box #main .wallet .line {
+  height: 0.64rem;
+  width: 0.01rem;
+  background: #c7c9c6;
+  position: absolute;
+  left: 3.74rem;
+  top: 0.09rem;
+}
+
+#box #main .list {
+  padding: 0.18rem 0.2rem 2.56rem;
+}
+
+#box #main .list li {
+  height: 0.8rem;
+  box-sizing: border-box;
+  background: #fefefe;
+  border-top: 0.01rem solid #e7e7e7;
+  border-right: 0.01rem solid #dadada;
+  border-bottom: 0.01rem solid #c7c7c7;
+  border-left: 0.01rem solid #d9d9d9;
+  border-radius: 0.07rem;
+  position: relative;
+  margin-bottom: 0.18rem;
+}
+
+#box #main .list li a span {
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+  position: absolute;
+}
+
+#box #main .list li a b {
+  font-size: 0.24rem;
+  color: #323232;
+  position: absolute;
+  left: 0.76rem;
+  top: 0.25rem;
+}
+
+#box #main .list li a .icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  left: 0.16rem;
+  top: 0.16rem;
+  border-radius: 50%;
+}
+
+#box #main .list li a .icon1 {
+  background-position: 0 -2.17rem;
+}
+
+#box #main .list li a .icon2 {
+  background-position: -0.7rem -2.17rem;
+}
+
+#box #main .list li a .icon3 {
+  background-position: 0 -2.76rem;
+}
+
+#box #main .list li a .icon4 {
+  background-position: -0.71rem -2.76rem;
+}
+
+#box #main .list li a .arrow {
+  width: 0.13rem;
+  height: 0.23rem;
+  background-position: -0.53rem -0.56rem;
+  right: 0.21rem;
+  top: 0.31rem;
+}
+
+#box footer {
+  height: 0.99rem;
+  font-size: 0.2rem;
+}
+
+#box footer ul {
+  box-sizing: border-box;
+  padding: 0.11rem 0.7rem 0.14rem 0.82rem;
+}
+
+#box footer ul li {
+  width: 0.58rem;
+  height: 0.74rem;
+  text-align: center;
+  margin-right: 2.04rem;
+}
+
+#box footer ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #666;
+}
+
+#box footer ul li a span {
+  display: block;
+  overflow: hidden;
+  background-image: url(../img/Spirit.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem 5rem;
+}
+
+#box footer ul li a .footFarm {
+  width: 0.49rem;
+  height: 0.45rem;
+  background-position: 0 -0.56rem;
+  margin: 0 auto 0.06rem;
+}
+
+#box footer ul li a .footClass {
+  width: 0.45rem;
+  height: 0.45rem;
+  background-position: 0 0;
+  margin: 0 auto 0.05rem;
+}
+
+#box footer ul li a .footUser {
+  width: 0.4rem;
+  height: 0.46rem;
+  background-position: -0.79rem -1.11rem;
+  margin: 0 auto 0.04rem;
+}
+
+#box footer ul .last {
+  margin-right: 0;
+}

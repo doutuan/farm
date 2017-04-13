@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/shopping-cart.css">
+	<style>
+
+	</style>
+	<script>
+        ;(function(){
+            var html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })()
+    </script>
+</head>
+<body>
+	<div id="box">
+		<!--null  head-->
+		<div class="null"></div>
+		<!--header public-->
+		<header>
+			<a href="javascript:;" class="back">返回</a>
+			<span>购物车</span>
+		</header>
+		<section id="main">
+			<ul>
+				<li>
+					<input type="checkbox">
+					<img src="img/pepper.png" alt="">
+					<h3 class=" trade-name">彩椒</h3>
+					<b>￥<span>30</span>.00</b>
+					<span class="details">新鲜鲜美有机蔬菜</span>
+					<span class="farm">农场一</span>
+					<section class="fr count">
+						<input type="button" value="-" class="fl ">
+						<span class="fl">1</span>
+						<input type="button" value="+" class="fl last">
+					</section>
+				</li>
+				<li>
+					<input type="checkbox">
+					<img src="img/pepper.png" alt="">
+					<h3 class=" trade-name">彩椒</h3>
+					<b>￥<span>30</span>.00</b>
+					<span class="details">新鲜鲜美有机蔬菜</span>
+					<span class="farm">农场一</span>
+					<section class="fr count">
+						<input type="button" value="-" class="fl ">
+						<span class="fl">1</span>
+						<input type="button" value="+" class="fl last">
+					</section>
+				</li>
+			</ul>
+		</section>
+		<footer class="clearfix">
+			<input type="checkbox" class="fl">
+			<span class="car fl">全选</span>
+			<p class="fl">
+				合计：
+				<span>
+					￥<b>200.00</b>
+				</span>
+			</p>
+			<a href="place-order.html">
+				<input type="button" value="去结算" class="fr" id="btn">
+			</a>
+		</footer>
+	</div>
+</body>
+</html>

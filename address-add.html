@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farm</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/address-add.css">
+	<style>
+
+	</style>
+	<script>
+        ;(function(){
+            var html=document.documentElement;
+            html.style.fontSize=html.clientWidth*50/375+'px';
+            window.onresize=function(){
+                html.style.fontSize=html.clientWidth*50/375+'px';
+            };
+        })();
+
+        document.addEventListener('DOMContentLoaded',function(){
+        	var oBtn = document.querySelector('#btn');
+        	var oDot = document.querySelector('#btn .dot');
+        	var bOk=false;
+        	oBtn.addEventListener('touchstart',function(){
+        		if(bOk){
+        			oBtn.style.background='#fdfffc';
+        			oDot.style.left=0+'px';
+        			oDot.style.boxShadow='7px 1px 10px #d5d5d3';
+        			bOk=!bOk;
+        		}else{
+        			oBtn.style.background='#d5d5d3';
+        			oDot.style.left=35+'px';
+        			oDot.style.boxShadow='-7px 1px 10px #d5d5d3';
+        			bOk=!bOk;
+        		}
+        	},false)
+        },false)
+    </script>
+</head>
+<body>
+	<div id="box">
+		<!--null  head-->
+		<div class="null"></div>
+		<!--header public-->
+		<header>
+			<a href="javascript:;" class="back">返回</a>
+			<span>地址管理</span>
+			<input type="button" value="保存" class="btn">
+		</header>
+		<section id="main">
+			<section>
+				<ul class="form-list">
+					<li>
+						<label for="name">收货人</label>
+						<input type="text" id="name">
+					</li>
+					<li>
+						<label for="name">联系电话</label>
+						<input type="text" id="name">
+					</li>
+					<li>
+						<a href="javascript:;">
+							<b>所在地区</b>
+							<i>请选择</i>
+							<span class="arrow"></span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<b>街道</b>
+							<i>请选择</i>
+							<span class="arrow"></span>
+						</a>
+					</li>
+				</ul>
+				<textarea placeholder="请填写详细地址,不少于5个字" class="msg"></textarea>
+			</section>
+			<section class="default">
+				<p>设为默认</p>
+				<span id="btn"><span class="dot"></span></span>
+			</section>
+		</section>
+	</div>
+</body>
+</html>
